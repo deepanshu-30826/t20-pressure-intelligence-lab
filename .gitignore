@@ -13,3 +13,37 @@ dist/
 build/
 *.log
 .DS_Store
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dataset files
+*.csv
+*.parquet
+*.duckdb
+*.db
+
+# Competition documents
+*.pdf
+
+# Generated artifacts
+artifacts/
+
+# Python cache
+*.pyc
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+
+# Frontend dependencies and builds
+node_modules/
+.next/
+dist/
+build/
+
+# Logs and OS files
+*.log
+.DS_Store
