@@ -1,0 +1,64 @@
+{
+  "system_name": "T20 Pressure Intelligence Lab",
+  "audit_version": "3.0_final_refined_role_adjusted",
+  "audit_timestamp": "2026-11-13T13:49:00Z",
+  "dataset_summary": {
+    "total_matches_in_archive": 883,
+    "total_deliveries_in_archive": 200999,
+    "primary_matches": 853,
+    "primary_deliveries": 194014,
+    "ipl_matches": 371,
+    "t20i_matches": 482,
+    "excluded_development_competitions": [
+      {
+        "comp_id": 2670,
+        "comp_name": "Men's T20 Emerging Teams Asia Cup 2024",
+        "matches": 15
+      },
+      {
+        "comp_id": 3289,
+        "comp_name": "Asia Cup Rising Stars 2025",
+        "matches": 15
+      }
+    ]
+  },
+  "score_reconstruction_audit": {
+    "status": "QUALIFIED_PASS_WITH_DOCUMENTED_FEED_LIMITATIONS",
+    "exact_match_margin_agreement_pct": 31.7,
+    "within_1_run_pct": 49.9,
+    "within_3_runs_pct": 74.8,
+    "within_5_runs_pct": 91.4,
+    "mean_pressure_score_drift_under_3run_shift": 0.83,
+    "classification_flip_pct_under_3run_shift": 4.31,
+    "primary_mitigation": "Context-Only Structural Pressure Engine with zero scoreboard run dependence."
+  },
+  "rating_mathematics": {
+    "primary_methodology": "Role-Adjusted Context-Only Structural Pressure Engine",
+    "neutral_format_factor": 1.0,
+    "prior_shrinkage_strength_k": 40.0,
+    "min_balls_threshold": 100,
+    "min_matches_threshold": 10,
+    "volume_bonus_removed": true,
+    "match_consistency_metric_included": true
+  },
+  "top_ranked_players": {
+    "top_batter": {
+      "name": "Naman Dhir",
+      "rating": 73.99,
+      "pressure_strike_rate": 196.4,
+      "expected_baseline_sr": 147.2,
+      "shrunk_lift": 42.94,
+      "match_consistency_pct": 76.2,
+      "sample_size": 277
+    },
+    "top_bowler": {
+      "name": "Abrar Ahmed",
+      "rating": 74.62,
+      "pressure_economy": 6.41,
+      "expected_baseline_econ": 8.91,
+      "shrunk_lift": 2.00,
+      "match_consistency_pct": 76.5,
+      "sample_size": 161
+    }
+  }
+}

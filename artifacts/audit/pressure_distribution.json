@@ -1,0 +1,22 @@
+{
+  "batting_pressure": {
+    "mean": 43.21998791038761,
+    "std": 21.474093854342172,
+    "p25": 26.0,
+    "p50": 41.07,
+    "p75": 56.96,
+    "p90": 74.54,
+    "high_pressure_deliveries": 33718,
+    "high_pressure_pct": 16.77520783685491
+  },
+  "bowling_pressure": {
+    "mean": 51.832169413778175,
+    "std": 10.616918152920704,
+    "p25": 46.58,
+    "p50": 51.75,
+    "p75": 57.81,
+    "p90": 65.03,
+    "high_pressure_deliveries": 37283,
+    "high_pressure_pct": 18.54884850173384
+  }
+}
