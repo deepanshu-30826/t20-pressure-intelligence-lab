@@ -53,6 +53,15 @@ def query_one(q: str):
     finally:
         cur.close()
 
+@app.get("/")
+def root():
+    return {
+        "status": "ok",
+        "app": "T20 Pressure Intelligence Lab API",
+        "docs": "/docs",
+        "health": "/api/health"
+    }
+
 @app.get("/api/health")
 def health_check():
     return {"status": "ok", "app": "T20 Pressure Intelligence Lab"}
