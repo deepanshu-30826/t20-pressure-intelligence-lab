@@ -10,15 +10,28 @@ import pandas as pd
 import os
 import json
 
-WORKSPACE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-PROCESSED_DIR = os.path.join(WORKSPACE, "data", "processed")
-ARTIFACTS_DIR = os.path.join(WORKSPACE, "artifacts")
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))  # backend/app
+BACKEND_DIR = os.path.dirname(CURRENT_DIR)                # backend
+REPO_DIR = os.path.dirname(BACKEND_DIR)                   # repo root
+
+if os.path.exists(os.path.join(BACKEND_DIR, "data", "processed")):
+    PROCESSED_DIR = os.path.join(BACKEND_DIR, "data", "processed").replace("\\", "/")
+else:
+    PROCESSED_DIR = os.path.join(REPO_DIR, "data", "processed").replace("\\", "/")
+
+if os.path.exists(os.path.join(BACKEND_DIR, "artifacts")):
+    ARTIFACTS_DIR = os.path.join(BACKEND_DIR, "artifacts").replace("\\", "/")
+else:
+    ARTIFACTS_DIR = os.path.join(REPO_DIR, "artifacts").replace("\\", "/")
 
 app = FastAPI(title="T20 Pressure Intelligence Lab API", version="1.0.0")
 
+allowed_origins_env = os.environ.get("ALLOWED_ORIGINS", "*")
+origins = ["*"] if allowed_origins_env == "*" else [o.strip() for o in allowed_origins_env.split(",") if o.strip()]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

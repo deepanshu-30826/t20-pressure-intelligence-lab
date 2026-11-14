@@ -1,0 +1,433 @@
+{
+  "iterations": 1000,
+  "bootstrap_iterations": 1000,
+  "methodology": "Clustered Match-Level Resampling across 837 Primary Matches (Refined Role-Adjusted + Consistency)",
+  "batters_confidence_intervals": {
+    "Naman Dhir": {
+      "ci_lower_2.5": 174.0948574066162,
+      "ci_upper_97.5": 218.02096290588378
+    },
+    "Jacob Bethell": {
+      "ci_lower_2.5": 150.84759864807128,
+      "ci_upper_97.5": 234.07287063598633
+    },
+    "Suryakumar Yadav": {
+      "ci_lower_2.5": 178.58067932128907,
+      "ci_upper_97.5": 210.70237922668457
+    },
+    "Hasan Nawaz": {
+      "ci_lower_2.5": 136.50764503479004,
+      "ci_upper_97.5": 230.16719703674315
+    },
+    "Rajat Patidar": {
+      "ci_lower_2.5": 152.30165405273436,
+      "ci_upper_97.5": 225.26490745544433
+    },
+    "Shreyas Iyer": {
+      "ci_lower_2.5": 170.88453903198243,
+      "ci_upper_97.5": 207.95234870910645
+    },
+    "Quinton de Kock": {
+      "ci_lower_2.5": 134.9877555847168,
+      "ci_upper_97.5": 253.26145935058594
+    },
+    "Sameer Rizvi": {
+      "ci_lower_2.5": 151.4280704498291,
+      "ci_upper_97.5": 203.41548385620118
+    },
+    "Sikandar Raza": {
+      "ci_lower_2.5": 156.9929172515869,
+      "ci_upper_97.5": 199.14448089599608
+    },
+    "Donovan Ferreira": {
+      "ci_lower_2.5": 146.27899780273438,
+      "ci_upper_97.5": 212.729345703125
+    }
+  },
+  "bowlers_confidence_intervals": {
+    "Abrar Ahmed": {
+      "ci_lower_2.5": 5.153048884868622,
+      "ci_upper_97.5": 7.9343398928642275
+    },
+    "Sunil Narine": {
+      "ci_lower_2.5": 5.818158912658691,
+      "ci_upper_97.5": 8.006010007858276
+    },
+    "Craig Young": {
+      "ci_lower_2.5": 6.683639276027679,
+      "ci_upper_97.5": 9.811491847038269
+    },
+    "Jasprit Bumrah": {
+      "ci_lower_2.5": 6.788801813125611,
+      "ci_upper_97.5": 8.489728140830993
+    },
+    "Mujeeb Ur Rahman": {
+      "ci_lower_2.5": 6.260789477825165,
+      "ci_upper_97.5": 9.440065169334412
+    },
+    "Roston Chase": {
+      "ci_lower_2.5": 6.0,
+      "ci_upper_97.5": 8.98468565940857
+    },
+    "Jamie Overton": {
+      "ci_lower_2.5": 6.803757619857788,
+      "ci_upper_97.5": 10.387633752822875
+    },
+    "Akeal Hosein": {
+      "ci_lower_2.5": 6.398316812515259,
+      "ci_upper_97.5": 9.593789529800414
+    },
+    "Matheesha Pathirana": {
+      "ci_lower_2.5": 7.958599996566773,
+      "ci_upper_97.5": 9.908250713348389
+    },
+    "Abbas Afridi": {
+      "ci_lower_2.5": 7.454342579841613,
+      "ci_upper_97.5": 11.157168531417847
+    }
+  },
+  "batters_rank_stability": [
+    {
+      "Official Rank": 1,
+      "Player": "Naman Dhir",
+      "Rating": 73.99,
+      "Pressure SR": 196.4,
+      "Expected Baseline SR": 147.2,
+      "Shrunk Lift": "+42.9",
+      "Pressure Balls": 277,
+      "Matches": 26,
+      "Match Consistency %": "76.2%",
+      "Qualifying Matches": 21,
+      "95% Metric CI": "[174.1, 218.0]",
+      "P(Top 10)": "88.1%",
+      "Median Rank": "4.0",
+      "95% Rank CI": "[1 - 18]",
+      "Stability Classification": "HIGHLY STABLE"
+    },
+    {
+      "Official Rank": 2,
+      "Player": "Jacob Bethell",
+      "Rating": 71.45,
+      "Pressure SR": 198.4,
+      "Expected Baseline SR": 156.4,
+      "Shrunk Lift": "+31.8",
+      "Pressure Balls": 125,
+      "Matches": 12,
+      "Match Consistency %": "75.0%",
+      "Qualifying Matches": 8,
+      "95% Metric CI": "[150.8, 234.1]",
+      "P(Top 10)": "67.4%",
+      "Median Rank": "5.0",
+      "95% Rank CI": "[1 - 34]",
+      "Stability Classification": "SAMPLE-SENSITIVE"
+    },
+    {
+      "Official Rank": 3,
+      "Player": "Suryakumar Yadav",
+      "Rating": 69.75,
+      "Pressure SR": 195.7,
+      "Expected Baseline SR": 159.3,
+      "Shrunk Lift": "+34.4",
+      "Pressure Balls": 669,
+      "Matches": 60,
+      "Match Consistency %": "73.9%",
+      "Qualifying Matches": 46,
+      "95% Metric CI": "[178.6, 210.7]",
+      "P(Top 10)": "79.8%",
+      "Median Rank": "6.0",
+      "95% Rank CI": "[1 - 20]",
+      "Stability Classification": "HIGHLY STABLE"
+    },
+    {
+      "Official Rank": 4,
+      "Player": "Hasan Nawaz",
+      "Rating": 68.1,
+      "Pressure SR": 185.9,
+      "Expected Baseline SR": 150.3,
+      "Shrunk Lift": "+27.1",
+      "Pressure Balls": 128,
+      "Matches": 15,
+      "Match Consistency %": "81.8%",
+      "Qualifying Matches": 11,
+      "95% Metric CI": "[136.5, 230.2]",
+      "P(Top 10)": "48.4%",
+      "Median Rank": "11.0",
+      "95% Rank CI": "[1 - 35]",
+      "Stability Classification": "SAMPLE-SENSITIVE"
+    },
+    {
+      "Official Rank": 5,
+      "Player": "Rajat Patidar",
+      "Rating": 67.57,
+      "Pressure SR": 193.1,
+      "Expected Baseline SR": 159.4,
+      "Shrunk Lift": "+28.7",
+      "Pressure Balls": 232,
+      "Matches": 24,
+      "Match Consistency %": "70.6%",
+      "Qualifying Matches": 17,
+      "95% Metric CI": "[152.3, 225.3]",
+      "P(Top 10)": "54.8%",
+      "Median Rank": "9.0",
+      "95% Rank CI": "[1 - 34]",
+      "Stability Classification": "SAMPLE-SENSITIVE"
+    },
+    {
+      "Official Rank": 6,
+      "Player": "Shreyas Iyer",
+      "Rating": 67.04,
+      "Pressure SR": 190.2,
+      "Expected Baseline SR": 160.2,
+      "Shrunk Lift": "+27.8",
+      "Pressure Balls": 518,
+      "Matches": 44,
+      "Match Consistency %": "70.3%",
+      "Qualifying Matches": 37,
+      "95% Metric CI": "[170.9, 208.0]",
+      "P(Top 10)": "53.9%",
+      "Median Rank": "10.0",
+      "95% Rank CI": "[2 - 27]",
+      "Stability Classification": "SAMPLE-SENSITIVE"
+    },
+    {
+      "Official Rank": 7,
+      "Player": "Quinton de Kock",
+      "Rating": 66.53,
+      "Pressure SR": 197.4,
+      "Expected Baseline SR": 170.6,
+      "Shrunk Lift": "+19.9",
+      "Pressure Balls": 116,
+      "Matches": 11,
+      "Match Consistency %": "62.5%",
+      "Qualifying Matches": 8,
+      "95% Metric CI": "[135.0, 253.3]",
+      "P(Top 10)": "45.9%",
+      "Median Rank": "12.0",
+      "95% Rank CI": "[1 - 35]",
+      "Stability Classification": "SAMPLE-SENSITIVE"
+    },
+    {
+      "Official Rank": 8,
+      "Player": "Sameer Rizvi",
+      "Rating": 66.12,
+      "Pressure SR": 178.0,
+      "Expected Baseline SR": 149.7,
+      "Shrunk Lift": "+22.1",
+      "Pressure Balls": 141,
+      "Matches": 12,
+      "Match Consistency %": "70.0%",
+      "Qualifying Matches": 10,
+      "95% Metric CI": "[151.4, 203.4]",
+      "P(Top 10)": "25.7%",
+      "Median Rank": "18.0",
+      "95% Rank CI": "[3 - 34]",
+      "Stability Classification": "SAMPLE-SENSITIVE"
+    },
+    {
+      "Official Rank": 9,
+      "Player": "Sikandar Raza",
+      "Rating": 65.84,
+      "Pressure SR": 179.0,
+      "Expected Baseline SR": 156.4,
+      "Shrunk Lift": "+20.1",
+      "Pressure Balls": 324,
+      "Matches": 28,
+      "Match Consistency %": "65.0%",
+      "Qualifying Matches": 20,
+      "95% Metric CI": "[157.0, 199.1]",
+      "P(Top 10)": "20.5%",
+      "Median Rank": "19.0",
+      "95% Rank CI": "[3 - 33]",
+      "Stability Classification": "SAMPLE-SENSITIVE"
+    },
+    {
+      "Official Rank": 10,
+      "Player": "Donovan Ferreira",
+      "Rating": 64.82,
+      "Pressure SR": 181.0,
+      "Expected Baseline SR": 144.4,
+      "Shrunk Lift": "+31.1",
+      "Pressure Balls": 226,
+      "Matches": 22,
+      "Match Consistency %": "62.5%",
+      "Qualifying Matches": 16,
+      "95% Metric CI": "[146.3, 212.7]",
+      "P(Top 10)": "44.6%",
+      "Median Rank": "13.0",
+      "95% Rank CI": "[1 - 34]",
+      "Stability Classification": "SAMPLE-SENSITIVE"
+    }
+  ],
+  "bowlers_rank_stability": [
+    {
+      "Official Rank": 1,
+      "Player": "Abrar Ahmed",
+      "Rating": 74.62,
+      "Pressure Econ": 6.41,
+      "Expected Baseline Econ": 8.91,
+      "Shrunk Lift": "+2.00",
+      "Pressure Balls": 161,
+      "Matches": 23,
+      "Match Consistency %": "76.5%",
+      "Qualifying Matches": 17,
+      "95% Metric CI": "[5.15, 7.93]",
+      "P(Top 10)": "96.6%",
+      "Median Rank": "2.0",
+      "95% Rank CI": "[1 - 11]",
+      "Stability Classification": "HIGHLY STABLE"
+    },
+    {
+      "Official Rank": 2,
+      "Player": "Sunil Narine",
+      "Rating": 71.42,
+      "Pressure Econ": 6.8,
+      "Expected Baseline Econ": 8.94,
+      "Shrunk Lift": "+1.91",
+      "Pressure Balls": 336,
+      "Matches": 47,
+      "Match Consistency %": "70.5%",
+      "Qualifying Matches": 44,
+      "95% Metric CI": "[5.82, 8.01]",
+      "P(Top 10)": "96.9%",
+      "Median Rank": "2.0",
+      "95% Rank CI": "[1 - 11]",
+      "Stability Classification": "HIGHLY STABLE"
+    },
+    {
+      "Official Rank": 3,
+      "Player": "Craig Young",
+      "Rating": 68.47,
+      "Pressure Econ": 7.99,
+      "Expected Baseline Econ": 8.95,
+      "Shrunk Lift": "+0.77",
+      "Pressure Balls": 163,
+      "Matches": 20,
+      "Match Consistency %": "75.0%",
+      "Qualifying Matches": 16,
+      "95% Metric CI": "[6.68, 9.81]",
+      "P(Top 10)": "39.1%",
+      "Median Rank": "13.0",
+      "95% Rank CI": "[2 - 32]",
+      "Stability Classification": "SAMPLE-SENSITIVE"
+    },
+    {
+      "Official Rank": 4,
+      "Player": "Jasprit Bumrah",
+      "Rating": 68.37,
+      "Pressure Econ": 7.38,
+      "Expected Baseline Econ": 9.26,
+      "Shrunk Lift": "+1.77",
+      "Pressure Balls": 665,
+      "Matches": 66,
+      "Match Consistency %": "70.5%",
+      "Qualifying Matches": 61,
+      "95% Metric CI": "[6.79, 8.49]",
+      "P(Top 10)": "94.3%",
+      "Median Rank": "4.0",
+      "95% Rank CI": "[1 - 13]",
+      "Stability Classification": "HIGHLY STABLE"
+    },
+    {
+      "Official Rank": 5,
+      "Player": "Mujeeb Ur Rahman",
+      "Rating": 68.26,
+      "Pressure Econ": 7.42,
+      "Expected Baseline Econ": 8.68,
+      "Shrunk Lift": "+0.99",
+      "Pressure Balls": 144,
+      "Matches": 25,
+      "Match Consistency %": "88.2%",
+      "Qualifying Matches": 17,
+      "95% Metric CI": "[6.26, 9.44]",
+      "P(Top 10)": "51.4%",
+      "Median Rank": "10.0",
+      "95% Rank CI": "[2 - 31]",
+      "Stability Classification": "SAMPLE-SENSITIVE"
+    },
+    {
+      "Official Rank": 6,
+      "Player": "Roston Chase",
+      "Rating": 67.81,
+      "Pressure Econ": 7.16,
+      "Expected Baseline Econ": 8.62,
+      "Shrunk Lift": "+1.16",
+      "Pressure Balls": 155,
+      "Matches": 25,
+      "Match Consistency %": "80.0%",
+      "Qualifying Matches": 15,
+      "95% Metric CI": "[6.00, 8.98]",
+      "P(Top 10)": "59.9%",
+      "Median Rank": "9.0",
+      "95% Rank CI": "[1 - 28]",
+      "Stability Classification": "SAMPLE-SENSITIVE"
+    },
+    {
+      "Official Rank": 7,
+      "Player": "Jamie Overton",
+      "Rating": 66.96,
+      "Pressure Econ": 8.03,
+      "Expected Baseline Econ": 9.13,
+      "Shrunk Lift": "+0.90",
+      "Pressure Balls": 183,
+      "Matches": 20,
+      "Match Consistency %": "57.9%",
+      "Qualifying Matches": 19,
+      "95% Metric CI": "[6.80, 10.39]",
+      "P(Top 10)": "30.4%",
+      "Median Rank": "17.0",
+      "95% Rank CI": "[2 - 34]",
+      "Stability Classification": "SAMPLE-SENSITIVE"
+    },
+    {
+      "Official Rank": 8,
+      "Player": "Akeal Hosein",
+      "Rating": 66.34,
+      "Pressure Econ": 7.45,
+      "Expected Baseline Econ": 8.66,
+      "Shrunk Lift": "+1.04",
+      "Pressure Balls": 249,
+      "Matches": 38,
+      "Match Consistency %": "65.5%",
+      "Qualifying Matches": 29,
+      "95% Metric CI": "[6.40, 9.59]",
+      "P(Top 10)": "37.3%",
+      "Median Rank": "14.0",
+      "95% Rank CI": "[2 - 32]",
+      "Stability Classification": "SAMPLE-SENSITIVE"
+    },
+    {
+      "Official Rank": 9,
+      "Player": "Matheesha Pathirana",
+      "Rating": 65.24,
+      "Pressure Econ": 8.03,
+      "Expected Baseline Econ": 9.23,
+      "Shrunk Lift": "+1.13",
+      "Pressure Balls": 671,
+      "Matches": 49,
+      "Match Consistency %": "64.4%",
+      "Qualifying Matches": 45,
+      "95% Metric CI": "[7.96, 9.91]",
+      "P(Top 10)": "10.7%",
+      "Median Rank": "19.0",
+      "95% Rank CI": "[7 - 32]",
+      "Stability Classification": "SAMPLE-SENSITIVE"
+    },
+    {
+      "Official Rank": 10,
+      "Player": "Abbas Afridi",
+      "Rating": 64.34,
+      "Pressure Econ": 8.87,
+      "Expected Baseline Econ": 9.33,
+      "Shrunk Lift": "+0.36",
+      "Pressure Balls": 138,
+      "Matches": 17,
+      "Match Consistency %": "50.0%",
+      "Qualifying Matches": 16,
+      "95% Metric CI": "[7.45, 11.16]",
+      "P(Top 10)": "13.2%",
+      "Median Rank": "24.0",
+      "95% Rank CI": "[5 - 35]",
+      "Stability Classification": "SAMPLE-SENSITIVE"
+    }
+  ]
+}

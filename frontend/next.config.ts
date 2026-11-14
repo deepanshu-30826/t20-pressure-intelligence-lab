@@ -8,7 +8,8 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: false,
   },
   async rewrites() {
-    const backendUrl = process.env.ANALYTICS_API_URL || "http://127.0.0.1:8000";
+    const rawUrl = process.env.ANALYTICS_API_URL || "http://127.0.0.1:8000";
+    const backendUrl = rawUrl.replace(/\/+$/, "");
     return [
       {
         source: "/api/:path*",

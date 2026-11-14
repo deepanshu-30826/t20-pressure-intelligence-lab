@@ -181,7 +181,7 @@ export function Topbar({
           {apiConnected === true ? (
             <div className="flex items-center space-x-1.5 text-[#34D399]">
               <span className="w-2 h-2 rounded-full bg-[#10B981] animate-pulse" />
-              <span className="font-semibold text-[11px]">API 127.0.0.1:8000</span>
+              <span className="font-semibold text-[11px]">API Online</span>
             </div>
           ) : apiConnected === false ? (
             <div className="flex items-center space-x-1.5 text-[#EF4444]">

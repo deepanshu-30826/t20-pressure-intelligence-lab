@@ -1,0 +1,102 @@
+{
+  "bootstrap_iterations": 30,
+  "batter_top10_stability": {
+    "Jos Buttler": "40.0%",
+    "Tristan Stubbs": "33.3%",
+    "Tim David": "33.3%",
+    "Rovman Powell": "33.3%",
+    "Ashutosh Sharma": "30.0%",
+    "Suryakumar Yadav": "30.0%",
+    "Dasun Shanaka": "26.7%",
+    "Heinrich Klaasen": "26.7%",
+    "Naman Dhir": "26.7%",
+    "Matthew Wade": "23.3%",
+    "Glenn Maxwell": "23.3%",
+    "Mohammad Nabi": "23.3%",
+    "Dinesh Karthik": "23.3%",
+    "Ijaz Ahmadzai": "20.0%",
+    "Rinku Singh": "20.0%"
+  },
+  "chronological_seasons": [
+    {
+      "season": "2022",
+      "is_primary_competition": true,
+      "matches": 168,
+      "deliveries": 39627,
+      "avg_bat_pressure": 44.55802785979257,
+      "avg_bowl_pressure": 53.7192550533727
+    },
+    {
+      "season": "2022/23",
+      "is_primary_competition": true,
+      "matches": 12,
+      "deliveries": 2838,
+      "avg_bat_pressure": 43.80019027484144,
+      "avg_bowl_pressure": 54.00773431994362
+    },
+    {
+      "season": "2023",
+      "is_primary_competition": true,
+      "matches": 137,
+      "deliveries": 32249,
+      "avg_bat_pressure": 43.03790288070948,
+      "avg_bowl_pressure": 51.95799869763403
+    },
+    {
+      "season": "2023/24",
+      "is_primary_competition": true,
+      "matches": 3,
+      "deliveries": 739,
+      "avg_bat_pressure": 44.60211096075778,
+      "avg_bowl_pressure": 51.39450608930988
+    },
+    {
+      "season": "2024",
+      "is_primary_competition": false,
+      "matches": 15,
+      "deliveries": 3519,
+      "avg_bat_pressure": 45.16981813015061,
+      "avg_bowl_pressure": 54.09493890309747
+    },
+    {
+      "season": "2024",
+      "is_primary_competition": true,
+      "matches": 175,
+      "deliveries": 40775,
+      "avg_bat_pressure": 43.25716443899448,
+      "avg_bowl_pressure": 51.31032814224402
+    },
+    {
+      "season": "2024/25",
+      "is_primary_competition": true,
+      "matches": 3,
+      "deliveries": 754,
+      "avg_bat_pressure": 43.251962864721484,
+      "avg_bowl_pressure": 55.55986737400531
+    },
+    {
+      "season": "2025",
+      "is_primary_competition": false,
+      "matches": 15,
+      "deliveries": 3466,
+      "avg_bat_pressure": 46.644974033467975,
+      "avg_bowl_pressure": 50.839094056549335
+    },
+    {
+      "season": "2025",
+      "is_primary_competition": true,
+      "matches": 195,
+      "deliveries": 43946,
+      "avg_bat_pressure": 42.63722341054931,
+      "avg_bowl_pressure": 51.251340281254265
+    },
+    {
+      "season": "2026",
+      "is_primary_competition": true,
+      "matches": 144,
+      "deliveries": 33086,
+      "avg_bat_pressure": 41.87559088436197,
+      "avg_bowl_pressure": 50.465536782929334
+    }
+  ]
+}

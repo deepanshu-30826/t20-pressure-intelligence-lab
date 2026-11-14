@@ -1,42 +1,50 @@
-
 # Environment and secrets
 .env
 .env.*
+.env.local
 !.env.example
 
 # Raw datasets - never upload
 *.csv
 data/raw/
 
-# Allow processed Parquet datasets
+# Processed Parquet datasets
 !data/
 !data/processed/
 !data/processed/*.parquet
 
-# Allow required audit JSON files
-artifacts/*
-!artifacts/audit/
-artifacts/audit/*
-!artifacts/audit/*.json
+# Backend runtime data assets
+!backend/data/
+!backend/data/processed/
+!backend/data/processed/*.parquet
+!backend/artifacts/
+!backend/artifacts/audit/
+!backend/artifacts/audit/*.json
+!backend/artifacts/validation/
+!backend/artifacts/validation/*.json
 
-# Python cache
+# Python cache & virtual environments
 *.pyc
 __pycache__/
 .pytest_cache/
 .venv/
 venv/
+env/
+*.egg-info/
 
 # Frontend dependencies and builds
 node_modules/
 .next/
 dist/
 build/
+.turbo/
 
-# Database and logs
+# Database, logs & temp files
 *.duckdb
 *.db
 *.log
 .DS_Store
+Thumbs.db
 
 # Competition documents
 *.pdf

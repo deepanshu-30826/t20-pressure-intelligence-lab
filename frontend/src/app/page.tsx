@@ -55,7 +55,7 @@ export default function Dashboard() {
       }
 
       if (!overviewRes.data && (!battersRes.data || battersRes.data.length === 0) && (!bowlersRes.data || bowlersRes.data.length === 0)) {
-        setConnectionError("Analytics engine currently unreachable. Verify that backend is running on 127.0.0.1:8000.");
+        setConnectionError("Analytics engine currently unreachable. Verify that backend service is running and accessible.");
       }
     } catch (err: any) {
       setConnectionError(err.message || "Failed to communicate with analytics backend.");
