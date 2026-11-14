@@ -1,35 +1,23 @@
-# Data files
-data/raw/
-data/processed/*.parquet
-data/cache/
-*.pyc
-__pycache__/
-.pytest_cache/
-.venv/
-venv/
-node_modules/
-.next/
-dist/
-build/
-*.log
-.DS_Store
 
 # Environment and secrets
 .env
 .env.*
 !.env.example
 
-# Dataset files
+# Raw datasets - never upload
 *.csv
-*.parquet
-*.duckdb
-*.db
+data/raw/
 
-# Competition documents
-*.pdf
+# Allow processed Parquet datasets
+!data/
+!data/processed/
+!data/processed/*.parquet
 
-# Generated artifacts
-artifacts/
+# Allow required audit JSON files
+artifacts/*
+!artifacts/audit/
+artifacts/audit/*
+!artifacts/audit/*.json
 
 # Python cache
 *.pyc
@@ -44,6 +32,11 @@ node_modules/
 dist/
 build/
 
-# Logs and OS files
+# Database and logs
+*.duckdb
+*.db
 *.log
 .DS_Store
+
+# Competition documents
+*.pdf
